@@ -24,15 +24,19 @@ Extract review dataset using PySpark
 
 Transform dataset into four dataframes
 - customer_id_table
+
 ![Getting Started](./images/customer_id_table.png) 
 
 - product_id_table
+
 ![Getting Started](./images/product_id_table.png)
 
 - review_id_table
+
 ![Getting Started](./images/review_id_table.png)
 
 - vine_table
+
 ![Getting Started](./images/vine_table.png)
 
 
