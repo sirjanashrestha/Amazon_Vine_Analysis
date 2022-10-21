@@ -23,8 +23,16 @@ Tools used:
 Extract review dataset using PySpark
 
 Transform dataset into four dataframes
-![Getting Started](./images/customer_id_table.png) ![Getting Started](./images/product_id_table.png)
+- customer_id_table
+![Getting Started](./images/customer_id_table.png) 
+
+- product_id_table
+![Getting Started](./images/product_id_table.png)
+
+- review_id_table
 ![Getting Started](./images/review_id_table.png)
+
+- vine_table
 ![Getting Started](./images/vine_table.png)
 
 
@@ -33,14 +41,24 @@ Transform dataset into four dataframes
 ## Results
 - VINE REVIEWS
     - 170 total paid reviews
+    ![Getting Started](./images/vine_reviews.png)
     - 65 reviews were 5-star reviews
+    ![Getting Started](./images/fivestar_vine_reviews.png)
     - 38.23% of total vine reviews were 5-star reviews
+    ![Getting Started](./images/%five_star_vinereviews.png)
+
 
 - NON VINE REVIEWS
     - 37,840 total unpaid reviews
+    ![Getting Started](./images/nonvine_reviews.png)
     - 20,612 reviews were 5-star reviews
-    - 38.23% of total non vine reviews were 5-star reviews
+    ![Getting Started](./images/nonvine_fivestar_reviews.png)
+    - 54.47% of total non vine reviews were 5-star reviews
+    ![Getting Started](./images/%nonvine_fivestar_reviews.png)
 
 
 ## Summary
-In your summary, state if there is any positivity bias for reviews in the Vine program. Use the results of your analysis to support your statement. Then, provide one additional analysis that you could do with the dataset to support your statement.
+
+In conclusion, we can say that there is no positivity bias for reviews in the Vine program. 5-star reviews only account for 38.23% of total vine reviews whereas for non vine reviews, 5-star reviews accounted for more than 50% of the total unpaid reviews. So, paid program did not influence the user to provide positive ratings to that extent.
+
+For the additional analysis, we can peform NLP Pipeline to analyse whether the user has used positive and touchy words on 5-star paid reviews.
