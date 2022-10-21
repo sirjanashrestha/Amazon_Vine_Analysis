@@ -49,8 +49,7 @@ Transform dataset into four dataframes
     - 65 reviews were 5-star reviews
     ![Getting Started](./images/fivestar_vine_reviews.png)
     - 38.23% of total vine reviews were 5-star reviews
-    
-    ![Getting Started](./images/%five_star_vinereviews.png)
+    ![Getting Started](./images/percent_five_star_vinereviews.png)
 
 
 - NON VINE REVIEWS
@@ -59,8 +58,7 @@ Transform dataset into four dataframes
     - 20,612 reviews were 5-star reviews
     ![Getting Started](./images/nonvine_fivestar_reviews.png)
     - 54.47% of total non vine reviews were 5-star reviews
-    
-    ![Getting Started](./images/%nonvine_fivestar_reviews.png)
+    ![Getting Started](./images/percent_nonvine_fivestar_reviews.png)
 
 
 ## Summary
